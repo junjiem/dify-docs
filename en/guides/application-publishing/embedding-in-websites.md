@@ -22,6 +22,13 @@ window.difyChatbotConfig = {
     draggable: false,
     // Optional, The axis along which the button is allowed to be dragged, default is `both`, can be `x`, `y`, `both`
     dragAxis: 'both',
+    // Optional, An object of system variables that set in the dify chatbot
+    systemVariables: {
+        // key is the system variable name
+        // e.g.
+        // user_id: "YOU CAN DEFINE USER ID HERE",
+        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE"
+    },
     // Optional, An object of inputs that set in the dify chatbot
     inputs: {
         // key is the variable name

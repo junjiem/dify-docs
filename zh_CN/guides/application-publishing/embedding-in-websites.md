@@ -35,13 +35,19 @@ window.difyChatbotConfig = {
     draggable: false,
     // 可选项，允许拖动按钮的轴，默认为 `both`，可以是 `x`、`y`、`both`
     dragAxis: 'both',
+    // 可选项，在 dify 聊天机器人中设置的系统变量对象
+    systemVariables: {
+        // 键是系统变量名
+        // 例如：
+        // user_id: "YOU CAN DEFINE USER ID HERE",
+        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE"
+    },
     // 可选项，在 dify 聊天机器人中设置的输入对象
     inputs: {
         // 键是变量名
         // 例如：
         // name: "NAME"
     }
-
 };
 ```
 
