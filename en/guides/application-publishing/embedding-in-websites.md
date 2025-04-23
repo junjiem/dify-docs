@@ -27,7 +27,7 @@ window.difyChatbotConfig = {
         // key is the system variable name
         // e.g.
         // user_id: "YOU CAN DEFINE USER ID HERE",
-        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE"
+        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID"
     },
     // Optional, An object of inputs that set in the dify chatbot
     inputs: {

@@ -40,7 +40,7 @@ window.difyChatbotConfig = {
         // 键是系统变量名
         // 例如：
         // user_id: "YOU CAN DEFINE USER ID HERE",
-        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE"
+        // conversation_id: "YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID"
     },
     // 可选项，在 dify 聊天机器人中设置的输入对象
     inputs: {
